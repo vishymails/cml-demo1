@@ -25,7 +25,7 @@ with open("metrics.txt", "w") as f:
     f.write(f"Accuracy: {acc} \n")
 
 with open("metrics.txt", "r") as f:
-    f.readlines()
+    print(f.readlines())
 
 # plot it 
 
